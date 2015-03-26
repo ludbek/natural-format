@@ -56,16 +56,16 @@ SYNTAX
         NOT ALLOWED
             http://awebsite.com is a plain text and should not be converted to <a> tag.
 
-  TEXT EMPHASIS AND DECORATION
+    TEXT EMPHASIS AND DECORATION
         'emphasis' yields <em>emphasis</em>
         ''strong'' yields <strong>strong</strong>
         _underscore_ yields span[style = "text-decoration:underscore"]
         -strike through- yields <del>strike through</del>
 
-  IMAGES
-    INLINE
-        'alt text'[[path/to/image]]
-
+    IMAGES
+        INLINE
+            'alt text'[[path/to/image]]
+            
     REFERENCE
         'alt text'[[]]
         'alt text 2'[[1]]
