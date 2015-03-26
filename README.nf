@@ -1,7 +1,7 @@
-Introduction
+INTRODUCTION
     natural-format is an intuitive way to format a document.
 
-Syntax
+SYNTAX
     The elementary syntaxes are listed below.
 
     HEADING
