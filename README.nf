@@ -6,10 +6,12 @@ SYNTAX
 
     HEADING
         heading 1
-            first heading starts without any indent followed by a new line.
+            first heading starts without any indent, followed by text and ends \
+            with a new line.
 
         heading 2
-            second heading starts with a indent followed by a new line.
+            second heading starts with an indent, followed by text and ends with \
+            a new line.
 
     LISTS
         UNORDERED LIST
