@@ -15,7 +15,7 @@ SYNTAX
 
     LISTS
         UNORDERED LIST
-            a unordered list starts with a '-', followed by text and ends with \
+            an unordered list starts with a '-', followed by text and ends with \
             a new line.
 
             e.g.
@@ -27,7 +27,7 @@ SYNTAX
                         - This is the 1st item at level 3.
 
         ORDERED LIST
-            a ordered list starts with a combination of number and '.', followed \
+            an ordered list starts with a combination of number and '.', followed \
             by text and ends with a new line
 
             e.g.
