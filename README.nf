@@ -1,6 +1,9 @@
 A natural way of formating a document.
 
 Headings
+  A line followed by another line or paragraph whose indentation is one greater\
+  than the earlier line is considered a heading.
+
   Heading 1
     The 1st heading starts without any indentation, followed by text and ends \
     with a new line.
@@ -16,17 +19,16 @@ List
     # A ordered list
     ## secod numbered list
     ### third numbered list
+
   Unordered List
     - unordered list
     -- second item in the unordered list
     --- third item of the unordered list
 
-
 Format
   'emphasis'
   *strong*
   -strike through-
-
 
 Link
   'link name'[http://aurl.com]
