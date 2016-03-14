@@ -1,79 +1,41 @@
-INTRODUCTION
-    natural-format is an intuitive way to format a document.
+A natural way of formating a document.
 
-SYNTAX
-    The elementary syntaxes are listed below.
+Headings
+  Heading 1
+    The 1st heading starts without any indentation, followed by text and ends \
+    with a new line.
 
-    HEADING
-        heading 1
-            first heading starts without any indent, followed by text and ends \
-            with a new line.
+  Heading 1
+    The 2nd heading starts without an indentation, followed by text and ends \
+    with a new line.
 
-        heading 2
-            second heading starts with an indent, followed by text and ends with \
-            a new line.
+  and so on ...
 
-    LISTS
-        UNORDERED LIST
-            an unordered list starts with a '-', followed by text and ends with \
-            a new line.
+List
+  Ordered List
+    # A ordered list
+    ## secod numbered list
+    ### third numbered list
+  Unordered List
+    - unordered list
+    -- second item in the unordered list
+    --- third item of the unordered list
 
-            e.g.
-                - This is the 1st item at level 1.
-                    - This is the 1st item at level 2.
-                    - This is the 2nd item at level 2.
-                - This is the 2nd item at level 1.
-                    - This is the 1st item at level 2.
-                        - This is the 1st item at level 3.
 
-        ORDERED LIST
-            an ordered list starts with a combination of number and '.', followed \
-            by text and ends with a new line
+Format
+  'emphasis'
+  *strong*
+  -strike through-
 
-            e.g.
-                1. This is the 1st item at level 1.
-                    1.1. This is the 1st item at level 2.
-                    1.2. This is the 2nd item at level 2.
-                2. This is the 2nd item at level 1.
-                    2.1. This is the 1st item at level 2.
-                        2.1.1. This is the 1st item at level 3.
 
-    HORIZONTAL RULE
-        ---
-        i.e. '-' x 3, not more, not less.
+Link
+  'link name'[http://aurl.com]
 
-    LINK
-        INLINE
-            'label'[http://awebsite.com]
+Image
+  'Left floated'<http://imagehost.com/aimage.jpeg<
+  'Right floated'>http://imagehots.com/aimage>
+  'Centered'|http://imagehost.com/aimage.jpeg|
+  'Covers available width'<http://imagehots.com/aimgae.jpeg>
 
-        REFERENCE
-            'label'[]
-            'label2'[1]
-            'label3'[aref]
-
-            [label] http://awebsite.com
-            [1] http://nextsite.com
-            [aref] http://alink.com
-
-        NOT ALLOWED
-            http://awebsite.com is a plain text and should not be converted to <a> tag.
-
-    TEXT EMPHASIS AND DECORATION
-        'emphasis' yields <em>emphasis</em>
-        ''strong'' yields <strong>strong</strong>
-        _underscore_ yields span[style = "text-decoration:underscore"]
-        -strike through- yields <del>strike through</del>
-
-    IMAGES
-        INLINE
-            'alt text'[[path/to/image]]
-            
-    REFERENCE
-        'alt text'[[]]
-        'alt text 2'[[1]]
-
-        [[alt text]] "path/to/image"
-        [[1]] "http://imagelab.com/theimg.png"
-
-NOTE
-    this doc is written in natural format.
+Horizontal rule
+  ---
