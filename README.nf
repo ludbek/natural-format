@@ -8,16 +8,20 @@ Headings
     The 1st heading starts without any indentation, followed by text and ends \
     with a new line.
 
-  Heading 1
+  Heading 2
     The 2nd heading starts without an indentation, followed by text and ends \
     with a new line.
 
   and so on ...
 
+Paragraph
+  A line or group of continuous lines at same indentation are considered a \
+  paragraph. Paragraphs are separated by new line.
+
 List
   Ordered List
     # A ordered list
-    ## secod numbered list
+    ## second numbered list
     ### third numbered list
 
   Unordered List
