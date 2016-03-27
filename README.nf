@@ -1,4 +1,4 @@
-A natural way of formating a document.
+A natural way of formatting a document.
 
 Headings
   A line followed by another line or paragraph whose indentation is one greater\
