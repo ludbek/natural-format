@@ -40,7 +40,7 @@ Link
 Image
   'Left floated'<http://imagehost.com/aimage.jpeg<
   'Right floated'>http://imagehots.com/aimage>
-  'Centered'|http://imagehost.com/aimage.jpeg|
+  'Centered'>http://imagehost.com/aimage.jpeg<
   'Covers available width'<http://imagehots.com/aimgae.jpeg>
 
 Horizontal rule
