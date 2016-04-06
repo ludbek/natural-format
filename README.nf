@@ -47,7 +47,8 @@ Horizontal rule
   ---
 
 Table
-  |>sn< | >Name>  | <Price< |
-  +-----+---------+---------+
+  | sn  |  Name   |  Price  |
+  |>---<|-------->|<--------|
   |  1  |    Apple| 1       | 
   |  2  |   Banana| 200     |
+
