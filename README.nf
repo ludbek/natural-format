@@ -45,3 +45,9 @@ Image
 
 Horizontal rule
   ---
+
+Table
+  |>sn< | >Name>  | <Price< |
+  +-----+---------+---------+
+  |  1  |    Apple| 1       | 
+  |  2  |   Banana| 200     |
