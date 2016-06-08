@@ -36,6 +36,11 @@ Format
 
 Link
   'link name'[http://aurl.com]
+  
+File
+  'file name'[/path/to/file]
+  
+  / is the project directory.
 
 Image
   'Left floated'<http://imagehost.com/aimage.jpeg<
