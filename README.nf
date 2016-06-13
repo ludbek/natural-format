@@ -53,7 +53,18 @@ Horizontal rule
 
 Table
   | sn  |  Name   |  Price  |
-  |>---<|-------->|<--------|
+  |-----|---------|---------|
   |  1  |    Apple| 1       | 
   |  2  |   Banana| 200     |
 
+Code
+  javascript {
+    let UI = {
+      controller: () -> {
+        ...
+      }
+      view: () -> {
+        ...
+      }
+    }
+  }
