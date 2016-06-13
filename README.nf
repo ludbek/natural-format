@@ -58,7 +58,8 @@ Table
   |  2  |   Banana| 200     |
 
 Code
-  javascript {
+  Known Lang
+    ```javascript
     let UI = {
       controller: () -> {
         ...
@@ -67,4 +68,16 @@ Code
         ...
       }
     }
-  }
+    ```
+  
+  Unknown Lang
+    ```
+    let UI = {
+      controller: () -> {
+        ...
+      }
+      view: () -> {
+        ...
+      }
+    }
+    ```
